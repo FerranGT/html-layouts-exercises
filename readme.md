@@ -5,3 +5,7 @@ This repo contains some html-5 done during the bootcamp Skylab Coders Autumn 201
 These html-5 are:
 
 * [mi primer marcado](https://github.com/FerranGT/html/tree/master/mi%20primer%20marcado)
+
+* [01-skylabcoders-web](https://github.com/FerranGT/html/tree/master/mi%20primer%20marcado)
+
+* [02-form-exercise](https://github.com/FerranGT/html/tree/master/mi%20primer%20marcado)

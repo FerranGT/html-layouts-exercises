@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>My Super Cool Form</title>
+	</head>
+	<body>
+		<h1>A Simple Form</h1>
+		<h2>Form Fundamentals</h2>
+		<form action="#">
+			<fieldset>
+				<legend>Customer Info</legend>
+				<div>
+					<label for="name">Name:</label>
+					<input name="name" type="text" size="40" id="name" autofocus placeholder="Enter your name" required>
+				</div>
+				<div>
+					<label for="telephone">Telephone:</label>
+					<input name="telephone" type="tel" size="40" id="telephone" placeholder="Pattern: 1-234-567-8910" required pattern="[0-9]-[0-9]{3}-[0-9]{3}-[0-9]{4}">
+				</div>
+				<div>
+					<label for="email">Email:</label>
+					<input name="email" type="email" size="40" placeholder="Enter your email address..." required>
+				</div>
+			</fieldset>
+			<fieldset>
+				<legend>Books</legend>
+				<div>
+					<input name="book" size="40" type="text" list="books" required>
+					<datalist id="books">
+		        <option>Old Man and Sea</option>
+		        <option>1984</option>
+		        <option>The Revenge of Zombies</option>
+				  </datalist>
+					<label for="quantity">Quantity (Maximum 5):</label>
+					<input type="number" min=1 max=5 id="quantity">
+				</div>
+			</fieldset>
+			<div>
+				<input type="submit" value="Submit">
+			</div>
+		</form>
+	</body>
+</html>
+
+
+
+<!-- Mi version <!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+<header>
+ <h1>A simple form</h1>
+ <h2>Form Fundamentals</h2>
+</header>
+	<form action="" method="post">
+		<fieldset>
+		  <legend>Costumer Info</legend>
+		    <div>
+		      <label for="name">Name:</label>
+		      <input name="name" type="text" id="name" placeholder="Enter your name" autofocus required>
+		    </div>
+		    <div>
+		     <label for="telephone">Telephone:</label> 
+		     <input name="telephone" type="tel" id="telephone" placeholder="Pattern 1-234-567-8910" pattern="[0-9]-[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+		    </div>
+		    <div>
+		      <label for="email">Email address:</label> 
+		      <input name="email" type="Email" id="email" placeholder="Enter your email" required>
+		    </div>		
+		</fieldset>
+		<fieldset>
+		  <legend>Books</legend>
+		    <div>
+		      <input name="Books" type="text" list="Books" >
+		      <datalist id="Books">
+		        <option value="Hola">Hola</option>
+		        <option value="Adios">Adios</option>  
+		        <option value="Hasta luego">Hasta luego</option>
+		        <option value="Arrivederci">Arrivederci</option>
+		      </datalist>
+		    <label for="Quantity">Quantity (Maxium 5): </label>
+		    <input type="number" min="1" max"5" id="Quantity">	
+		    </div>
+		</fieldset>
+		<div>
+		  <input type="submit" value="Submit">
+		</div>
+	</form>
+	<p><footer>&copy; 2017 Acme United. All rights reserved</footer></p>
+</body>
+</html> -->
+
