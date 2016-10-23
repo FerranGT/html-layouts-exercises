@@ -1,6 +1,6 @@
 ## html-5 Skylab Coders
 
-This repo contains some html-5 done during the bootcamp Skylab Coders Autumn 2016
+This repo contains some html-5 done during the bootcamp Skylab Coders Autumn 2016.
 
 These html-5 are:
 
